@@ -1,236 +1,245 @@
-root {
- --font-montserat: 'Montserrat';
+:root {
+	--font-montserat: 'Montserrat';
 }
 
 body {
- background-color: #e5e5e5;
- font-family: 'Montserrat', sans-serif;
+	background-color: #e5e5e5;
+	font-family: 'Montserrat', sans-serif;
+}
+
+a {
+	text-decoration: none;
 }
 
 /*? Right section styles */
 
 .right-section {
- padding-left: 90px;
- padding-right: 220px;
- background-color: #fff;
- border-radius: 0 20px 50px 0;
+	padding-left: 90px;
+	padding-right: 220px;
+	background-color: #fff;
+	border-radius: 0 20px 50px 0;
 }
 
 .about-me-profession {
- color: black;
- font-style: normal;
- font-family: 'Montserrat';
- font-weight: 700;
- font-size: 14px;
- line-height: 17px;
- margin-top: 100px;
+	color: black;
+	font-style: normal;
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	margin-top: 100px;
 }
 
 #personName {
- font-family: 'Montserrat';
- font-style: normal;
- font-weight: 700;
- font-size: 45px;
- line-height: 55px;
- margin-top: 30px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 45px;
+	line-height: 55px;
+	margin-top: 30px;
 }
 
 .main-section {
- display: flex;
- flex-direction: row-reverse;
- width: 1200px;
- margin: 40px auto;
- box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.644);
- padding: 10px;
- border-radius: 50px 20px;
+	display: flex;
+	flex-direction: row-reverse;
+	width: 1200px;
+	margin: 40px auto;
+	box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.644);
+	padding: 10px;
+	border-radius: 50px 20px;
 }
 
 .about-me-section {
- width: 400px;
+	width: 400px;
 }
 
 .about-me-section p {
- font-family: 'Montserrat';
- font-style: normal;
- font-weight: 400;
- font-size: 14px;
- line-height: 24px;
- color: #595959;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #595959;
 }
 
 /*? Projects section  */
 
 .projects-section {
- margin: 40px 0 0 0;
+	margin: 40px 0 0 0;
 }
 
 .block-title {
- font-family: 'Montserrat';
- font-style: normal;
- font-weight: 700;
- font-size: 22px;
- line-height: 27px;
- color: #000000;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 27px;
+	color: #000000;
 }
 
 .projects-section ol {
- padding-left: 20px;
+	padding-left: 20px;
 }
 
 ol li,
 .bracket {
- color: #000;
- font-weight: 700;
+	color: #000;
+	font-weight: 700;
 }
 
 .projects-item {
- font-family: 'Montserrat';
- font-style: normal;
- font-weight: 400;
- font-size: 14px;
- line-height: 24px;
- text-decoration-line: none;
- color: #595959;
- margin-left: 10px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	text-decoration-line: none;
+	color: #595959;
+	margin-left: 10px;
 }
 
 .projects-item a {
- color: #595959;
+	color: #595959;
 }
 
 /*? Work Experience section  */
 
 .work-experience-section {
- margin-top: 50px;
+	margin-top: 50px;
 }
 .work-experience-position {
- font-family: 'Montserrat';
- font-style: normal;
- font-weight: 700;
- font-size: 16px;
- line-height: 20px;
- color: #000000;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000000;
 }
 
 .work-experience-company {
- color: #fb6d3a;
+	color: #fb6d3a;
 }
 
 .period {
- font-family: 'Montserrat';
- font-style: normal;
- font-weight: 400;
- font-size: 12px;
- line-height: 15px;
- color: #a8a8a8;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	color: #a8a8a8;
 }
 
 .line-break {
- color: #000;
+	color: #000;
 }
 
 .work-experience-duties li {
- font-family: 'Montserrat';
- font-style: normal;
- font-weight: 400;
- font-size: 14px;
- line-height: 24px;
- color: #595959;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #595959;
 }
 
 .work-experience-duties {
- padding-left: 20px;
+	padding-left: 20px;
 }
 
 /*? Education section */
 
 .education-section {
- margin-top: 45px;
- margin-bottom: 110px;
+	margin-top: 45px;
+	margin-bottom: 110px;
 }
 
 .education-university {
- font-family: 'Montserrat';
- font-style: normal;
- font-weight: 700;
- font-size: 16px;
- line-height: 20px;
- color: #fb6d3a;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	color: #fb6d3a;
 }
 
 .education-faculty {
- font-family: 'Montserrat';
- font-style: normal;
- font-weight: 700;
- font-size: 14px;
- line-height: 17px;
- color: #000000;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	color: #000000;
 }
 
 /*? Sidebar styles */
 
 .sidebar-section {
- background-color: #1e2939;
- width: 370px;
- color: white;
- border-radius: 50px 0 0 20px;
+	background-color: #1e2939;
+	width: 470px;
+	color: white;
+	border-radius: 50px 0 0 20px;
+}
+
+.poza {
+	width: 100%;
+	max-width: fit-content;
 }
 
 .sidebar-section img {
- margin-top: 40px;
- border-radius: 5px 0 0 0;
- padding-left: 0.3px;
+	/* margin-top: 40px; */
+	border-radius: 5px 0 0 0;
+	padding-left: 0.3px;
 }
 
 .sidebar-title {
- font-style: normal;
- font-weight: 700;
- font-size: 22px;
- line-height: 27px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 27px;
 }
 
 .contacts-section,
 .tech-skills-section,
 .soft-skills-section,
 .career-skills-section {
- margin-left: 40px;
- margin-top: 50px;
+	margin-left: 40px;
+	margin-top: 50px;
 }
 
 .contacts-section-type {
- font-style: normal;
- font-weight: 700;
- font-size: 14px;
- line-height: 24px;
- margin-right: 10px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px;
+	margin-right: 10px;
 }
 
 .contacts-section-value {
- font-style: normal;
- font-weight: 400;
- font-size: 14px;
- line-height: 24px;
- /* color: #3a4352; */
- color: grey;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	/* color: #3a4352; */
+	color: grey;
 }
 
 .tel {
- text-decoration: none;
+	text-decoration: none;
 }
 
 a.contacts-section-value:hover {
- color: #fb6d3a;
+	color: #fb6d3a;
 }
 
 .sidebar-list {
- color: #fb6d3a;
- padding-left: 20px;
+	color: #fb6d3a;
+	padding-left: 20px;
 }
 
 .sidebar-list span {
- font-style: normal;
- font-weight: 400;
- font-size: 14px;
- line-height: 24px;
- color: #fff;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #fff;
 }
